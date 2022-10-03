@@ -154,14 +154,14 @@ body {
 .about-img {
     flex: 1 1 400px;
     padding: 30px;
-    transform: translateX(150%);
+    /*transform: translateX(150%);*/
 }
 
 .about-text {
     flex: 1 1 400px;
     padding: 30px;
     margin: auto;
-    transform: translate(-150%);
+    /*transform: translate(-150%);*/
 }
 
 .about-img img {
