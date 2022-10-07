@@ -42,6 +42,15 @@ body {
 
 .btn-primary:hover {
     transition: background 0.3s ease-in-out;
+    color: black;
+}
+
+.btn:hover {
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* ............/navbar/............ *
