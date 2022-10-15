@@ -12,6 +12,30 @@
     font-size: 62.5%;
 }
 
+section
+{
+display: grid;
+place-items: center;
+align-content: center;
+min-height:  50vh;
+}
+
+
+.hidden
+{
+opacity: 0;
+transition: all 3s;
+transform: translateX(-100%);
+filter: blur(5px);
+}
+.show
+{
+    opacity: 2;
+    transform: translateX(0);
+    filter: blur(0);
+}
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -24,6 +48,7 @@ body {
     margin: auto;
 }
 
+
 .btn {
     display: inline-block;
     padding: 0.5em 1.5em;
@@ -33,6 +58,21 @@ body {
     margin-top: 1em;
     text-transform: uppercase;
     font-weight: small;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: darkorange;
+
+}
+
+
+.btn-full:hover,
+.btn-full:active {
+    border: 2px solid rgb(197, 140, 17);
+    background-color: rgb(252, 141, 5);
 }
 
 .btn-primary {
@@ -45,13 +85,70 @@ body {
     color: black;
 }
 
-.btn:hover {
-    color: black;
+
+
+
+.hero-text-box{
+    position:relative;
+    width: 1140px;
+   
+    left: 50%;
+    right: 50%;
+    transform:translate(-50%,-50%);
 }
 
-a:hover {
-    text-decoration: underline;
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    border-radius: 200px;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, border 0.2s ;
+    /* -webkit-transition: border 0.2s,; background-color 0.2s, color 0.2s, */
 }
+
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color:darkorange;
+    border:1px solid darkorange;
+    color:#fff;
+    margin-right:15px;
+    border-radius: 200px;
+}
+.btn-ghost:link,
+.btn-ghost:visited
+                    {
+
+    color: rgb(84, 60, 9);
+    border:1px solid darkorange;
+    border-radius: 200px;
+
+} 
+h2{
+
+    color: rgb(208, 133, 13);
+    word-spacing:4px ;
+    letter-spacing: 1px;
+    
+
+} 
+
+h1{
+
+
+    margin-top: 5%;
+    color: rgb(208, 133, 13);
+    margin-bottom: 20px;
+    word-spacing:4px ;
+    letter-spacing: 1px;
+    font-size:200%;
+
+} 
+
 
 /* ............/navbar/............ *
 
@@ -270,6 +367,8 @@ a:hover {
     justify-content: space-evenly;
     margin-bottom: 3rem;
 }
+
+
 
 .food-description {
     margin: auto 1.5rem;
