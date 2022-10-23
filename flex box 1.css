@@ -1,0 +1,112 @@
+.box1{
+width: 320px;
+height: 500px;
+border: solid;
+overflow: hidden;
+text-align: center;
+float: left;
+margin-right: 40px;
+}
+.box1 img{
+width: 250px;
+height: 200px;
+padding: 10px;
+
+
+}
+.box2 img{
+    width: 219px;
+    height: 200px;
+    
+    
+    
+    }.box3 img{
+        width: 200px;
+        height: 200px;
+        
+        
+        
+        }
+.box2{
+    width: 320px;
+height: 500px;
+border: solid;
+overflow: hidden;
+text-align: center;
+float:center;
+}
+.box3{
+        
+    width: 320px;
+    height: 500px;
+    border: solid;
+    overflow: hidden;
+    text-align: center;
+      float:right;
+      margin-left: 40px;  
+        }
+        .box4{
+            display: inline-flex;
+            padding: 50px;
+            justify-content: space-between ;
+            align-content: center;
+            
+        }
+        .btn1{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            border-width: 10px;
+        }
+        .btn2{
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            border-width: 5px;
+        }
+        .btn3{
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            border-width: 10px;
+
+        }
+
+        .box1:hover{
+                    background-color: rgb(202, 31, 60);
+                    color: azure;
+                    width: 320px;
+                    height: 500px;
+                    
+                    
+        }
+        .box2:hover{
+            background-color: rgb(202, 31, 60);
+            color: azure;
+        }
+        .box3:hover {
+        background-color: rgb(202, 31, 60);
+        color: azure;
+       
+        }
+        .btn1:hover{
+            color: rgb(202, 31, 60);
+            background-color: white;
+           border-width: 5px;
+           border-radius: 20px;    
+
+        }
+        .btn2:hover{
+            color: rgb(202, 31, 60);
+            background-color: white;
+           border-width: 5px;
+           border-radius: 20px;    
+
+        }
+        .btn3:hover{
+            color: rgb(202, 31, 60);
+            background-color: white;
+           border-width: 5px;
+           border-radius: 20px;    
+
+        }
