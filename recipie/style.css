@@ -1,0 +1,12 @@
+body{
+    border:2px solid black;
+    padding: 50px;
+    margin: 50px;
+}
+img{
+    width: 1050px;
+    height: 200px;
+}
+p{
+   font-family:'Courier New', Courier, monospace;
+}
